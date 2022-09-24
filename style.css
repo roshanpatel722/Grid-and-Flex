@@ -27,8 +27,8 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 0.7em;
     margin: 0;
+    font-size: 0.7em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,6 +51,38 @@ a {
     text-decoration: none;
 }
 
+/* COVER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+/* GRID */
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
